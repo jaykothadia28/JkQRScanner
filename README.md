@@ -15,6 +15,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'JkQRScanner'
 ```
+or simply copy the JkQRScanner.swift file from the Classes folder
 
 ## Author
 
