@@ -11,12 +11,9 @@
 		3053758F6ADEF5BEF9EE6458F59A240A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4927B84FA7C2BA65F70072E187C39D7D /* JkQRScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0317833B82CA00F257BA69DD7ACFE8ED /* JkQRScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A9DF9FEB1349EDF81DC2FB3D152DE0D /* Pods-JkQRScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A499F709F88ADBD5EF8804492331765 /* Pods-JkQRScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C8BC68F1B1B907C2056A4E361637069 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A28DD410ABCF62DBA06CB4F1CDAD32 /* ReplaceMe.swift */; };
-		6E1C606ACF42D8569B3743361444A3A3 /* Pods-JkQRScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F11C5DC4F7E727D854EE971083BB79 /* Pods-JkQRScanner_Tests-dummy.m */; };
 		83DE811ADD8EA68998EB9F66ED575B20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		98F5CC264A386BA1249F413BC7A8C18C /* Pods-JkQRScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D408B85A98FA5623979D376E7272CE9 /* Pods-JkQRScanner_Example-dummy.m */; };
-		9B4FEC22A2C75FCC6C6407F80523BE64 /* Pods-JkQRScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 410F4A685F81A9BC1AEE11B6EFD5F99F /* Pods-JkQRScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F35C2F67B27B2F81F0F0BA87CE36D49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E61470C22BBC0C9300E2C2AC /* JkQRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61470C12BBC0C9300E2C2AC /* JkQRScanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +24,6 @@
 			remoteGlobalIDString = D690C18AC9B41206C0B39D4AD044A8AA;
 			remoteInfo = JkQRScanner;
 		};
-		BE0B255076A6C4895C2F1BF918581F78 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC09C2DF9B743721D032B067BFEA6EEE;
-			remoteInfo = "Pods-JkQRScanner_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -41,10 +31,10 @@
 		0317833B82CA00F257BA69DD7ACFE8ED /* JkQRScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JkQRScanner-umbrella.h"; sourceTree = "<group>"; };
 		0B2C7C6A1E057B416BAEDC769138B027 /* Pods-JkQRScanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JkQRScanner_Tests.modulemap"; sourceTree = "<group>"; };
 		0B3E4FE9960A4BE4AE83DA0010E48E91 /* Pods-JkQRScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JkQRScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		193E0A2E818B0889F1A43A833C8CDB39 /* JkQRScanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JkQRScanner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		193E0A2E818B0889F1A43A833C8CDB39 /* JkQRScanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JkQRScanner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1973D492FFE5AC584530EF48A141A337 /* Pods-JkQRScanner_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JkQRScanner_Example-Info.plist"; sourceTree = "<group>"; };
 		1A5E7D3E2AD4B48112B7E924CE451429 /* Pods-JkQRScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JkQRScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		21BF5FAE260A6FCBF7819F737DF6170B /* JkQRScanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JkQRScanner; path = JkQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BF5FAE260A6FCBF7819F737DF6170B /* JkQRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JkQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		287AA46ECC8FE4CF086E1D800F4C4DE8 /* JkQRScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JkQRScanner.modulemap; sourceTree = "<group>"; };
 		29D703AFCE001980C8D1B720E1E44D19 /* Pods-JkQRScanner_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JkQRScanner_Tests-Info.plist"; sourceTree = "<group>"; };
 		2C64B56D6825FC5BA269504CDA95997D /* Pods-JkQRScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JkQRScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,23 +43,22 @@
 		3A499F709F88ADBD5EF8804492331765 /* Pods-JkQRScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JkQRScanner_Example-umbrella.h"; sourceTree = "<group>"; };
 		3EA6238FF5D25C226EBF6A0E6AB5B915 /* JkQRScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JkQRScanner-prefix.pch"; sourceTree = "<group>"; };
 		410F4A685F81A9BC1AEE11B6EFD5F99F /* Pods-JkQRScanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JkQRScanner_Tests-umbrella.h"; sourceTree = "<group>"; };
-		453A5ED87D17764979C14E06F3C7AA69 /* Pods-JkQRScanner_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JkQRScanner_Tests"; path = Pods_JkQRScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA300CC82A1D4E09B155527C352217B /* JkQRScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JkQRScanner-Info.plist"; sourceTree = "<group>"; };
 		6B7A1BBCEBEE5B5BA0B8BA4C2FF7C016 /* JkQRScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JkQRScanner.debug.xcconfig; sourceTree = "<group>"; };
 		72AAFBAD9C90FB59A6F0AFF5ECF69D41 /* Pods-JkQRScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JkQRScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		757D63A4311EB33A44D59D739BB05DA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		757D63A4311EB33A44D59D739BB05DA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		765E2813906122051F4A4F2262EC8713 /* Pods-JkQRScanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JkQRScanner_Example-frameworks.sh"; sourceTree = "<group>"; };
 		86059FBBFBBE5650EC8DB3F615E5B39B /* Pods-JkQRScanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JkQRScanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		88BEFCA5498C5E50603530EC54CA9CC6 /* Pods-JkQRScanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JkQRScanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		91A28DD410ABCF62DBA06CB4F1CDAD32 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JkQRScanner/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		987DBF9595B20A6B820AF731E60B141A /* Pods-JkQRScanner_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JkQRScanner_Example"; path = Pods_JkQRScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		987DBF9595B20A6B820AF731E60B141A /* Pods_JkQRScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JkQRScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2F11C5DC4F7E727D854EE971083BB79 /* Pods-JkQRScanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JkQRScanner_Tests-dummy.m"; sourceTree = "<group>"; };
 		A4A06AAAE38BA70CC47CE8495EF6467E /* JkQRScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JkQRScanner-dummy.m"; sourceTree = "<group>"; };
 		C3DD42B20553168AFD10FF71164D467B /* Pods-JkQRScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JkQRScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2E67CE62222AC5ECA1844CD2C3BF68C /* Pods-JkQRScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JkQRScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F900DF7EE05C328D7614825A79F748C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E61470C12BBC0C9300E2C2AC /* JkQRScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JkQRScanner.swift; sourceTree = "<group>"; };
+		F900DF7EE05C328D7614825A79F748C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,14 +78,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC9F5BB0D03E79235E6B7E99A7D744D0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F35C2F67B27B2F81F0F0BA87CE36D49B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -112,9 +93,8 @@
 		09C6A82B1BF5609844FA98176BC15F53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21BF5FAE260A6FCBF7819F737DF6170B /* JkQRScanner */,
-				987DBF9595B20A6B820AF731E60B141A /* Pods-JkQRScanner_Example */,
-				453A5ED87D17764979C14E06F3C7AA69 /* Pods-JkQRScanner_Tests */,
+				21BF5FAE260A6FCBF7819F737DF6170B /* JkQRScanner.framework */,
+				987DBF9595B20A6B820AF731E60B141A /* Pods_JkQRScanner_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,7 +152,7 @@
 		732088D32E142F695BA2AFAEE36041D6 /* JkQRScanner */ = {
 			isa = PBXGroup;
 			children = (
-				91A28DD410ABCF62DBA06CB4F1CDAD32 /* ReplaceMe.swift */,
+				E61470C02BBC0C1400E2C2AC /* Classes */,
 				4EBF53A38E9B9C80AA83BB22D1730BB4 /* Pod */,
 				2327179C956FA1E9391D4F1C8D4E7114 /* Support Files */,
 			);
@@ -223,6 +203,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E61470C02BBC0C1400E2C2AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E61470C12BBC0C9300E2C2AC /* JkQRScanner.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -239,14 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4927B84FA7C2BA65F70072E187C39D7D /* JkQRScanner-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31CBAAD084A5739E9E15D1E9932E39D0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B4FEC22A2C75FCC6C6407F80523BE64 /* Pods-JkQRScanner_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,26 +249,7 @@
 			);
 			name = "Pods-JkQRScanner_Example";
 			productName = Pods_JkQRScanner_Example;
-			productReference = 987DBF9595B20A6B820AF731E60B141A /* Pods-JkQRScanner_Example */;
-			productType = "com.apple.product-type.framework";
-		};
-		BCE16A4D2D4D525515A0311C04EB4F34 /* Pods-JkQRScanner_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D901B5015F2BEB2921A05C3C14D0E958 /* Build configuration list for PBXNativeTarget "Pods-JkQRScanner_Tests" */;
-			buildPhases = (
-				31CBAAD084A5739E9E15D1E9932E39D0 /* Headers */,
-				B4F526A92AF5C0B8C8531BFC825DFD42 /* Sources */,
-				EC9F5BB0D03E79235E6B7E99A7D744D0 /* Frameworks */,
-				D7F02C7C61644ED17D727805036527B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				94AB1CB64D67806D9A9359B7FA8620C4 /* PBXTargetDependency */,
-			);
-			name = "Pods-JkQRScanner_Tests";
-			productName = Pods_JkQRScanner_Tests;
-			productReference = 453A5ED87D17764979C14E06F3C7AA69 /* Pods-JkQRScanner_Tests */;
+			productReference = 987DBF9595B20A6B820AF731E60B141A /* Pods_JkQRScanner_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D690C18AC9B41206C0B39D4AD044A8AA /* JkQRScanner */ = {
@@ -306,7 +267,7 @@
 			);
 			name = JkQRScanner;
 			productName = JkQRScanner;
-			productReference = 21BF5FAE260A6FCBF7819F737DF6170B /* JkQRScanner */;
+			productReference = 21BF5FAE260A6FCBF7819F737DF6170B /* JkQRScanner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,6 +278,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D690C18AC9B41206C0B39D4AD044A8AA = {
+						LastSwiftMigration = 1500;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -333,7 +299,6 @@
 			targets = (
 				D690C18AC9B41206C0B39D4AD044A8AA /* JkQRScanner */,
 				BC09C2DF9B743721D032B067BFEA6EEE /* Pods-JkQRScanner_Example */,
-				BCE16A4D2D4D525515A0311C04EB4F34 /* Pods-JkQRScanner_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -353,13 +318,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7F02C7C61644ED17D727805036527B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -367,8 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61470C22BBC0C9300E2C2AC /* JkQRScanner.swift in Sources */,
 				085D42F2467ACDEA0CF264B6E0689185 /* JkQRScanner-dummy.m in Sources */,
-				5C8BC68F1B1B907C2056A4E361637069 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,14 +335,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F5CC264A386BA1249F413BC7A8C18C /* Pods-JkQRScanner_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4F526A92AF5C0B8C8531BFC825DFD42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E1C606ACF42D8569B3743361444A3A3 /* Pods-JkQRScanner_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,48 +347,9 @@
 			target = D690C18AC9B41206C0B39D4AD044A8AA /* JkQRScanner */;
 			targetProxy = 3A8F80EE09735BCA0506575142BD7918 /* PBXContainerItemProxy */;
 		};
-		94AB1CB64D67806D9A9359B7FA8620C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JkQRScanner_Example";
-			target = BC09C2DF9B743721D032B067BFEA6EEE /* Pods-JkQRScanner_Example */;
-			targetProxy = BE0B255076A6C4895C2F1BF918581F78 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07F3F9A58CB347E6FFC0BAB62D9F5717 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C64B56D6825FC5BA269504CDA95997D /* Pods-JkQRScanner_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JkQRScanner_Tests/Pods-JkQRScanner_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JkQRScanner_Tests/Pods-JkQRScanner_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -494,8 +405,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -505,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 00062B8C1C257FB2D2110EAC9FC0AC3A /* JkQRScanner.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -517,7 +428,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JkQRScanner/JkQRScanner-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JkQRScanner/JkQRScanner-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JkQRScanner/JkQRScanner.modulemap";
 				PRODUCT_MODULE_NAME = JkQRScanner;
@@ -525,7 +436,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -549,7 +460,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JkQRScanner_Example/Pods-JkQRScanner_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JkQRScanner_Example/Pods-JkQRScanner_Example.modulemap";
@@ -636,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B7A1BBCEBEE5B5BA0B8BA4C2FF7C016 /* JkQRScanner.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -648,7 +560,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JkQRScanner/JkQRScanner-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JkQRScanner/JkQRScanner-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JkQRScanner/JkQRScanner.modulemap";
 				PRODUCT_MODULE_NAME = JkQRScanner;
@@ -656,46 +568,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		FAF9E2A6DF62EEFAA39E91E24E5E05A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A5E7D3E2AD4B48112B7E924CE451429 /* Pods-JkQRScanner_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JkQRScanner_Tests/Pods-JkQRScanner_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JkQRScanner_Tests/Pods-JkQRScanner_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		FB516BABBB5BAEA24519FB9826515458 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -713,7 +592,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JkQRScanner_Example/Pods-JkQRScanner_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JkQRScanner_Example/Pods-JkQRScanner_Example.modulemap";
@@ -757,15 +636,6 @@
 			buildConfigurations = (
 				DABD5332D7FC24AB57405EC464D9E053 /* Debug */,
 				82114349821B7673176F3DF901A52BCD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D901B5015F2BEB2921A05C3C14D0E958 /* Build configuration list for PBXNativeTarget "Pods-JkQRScanner_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				07F3F9A58CB347E6FFC0BAB62D9F5717 /* Debug */,
-				FAF9E2A6DF62EEFAA39E91E24E5E05A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
