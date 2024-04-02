@@ -8,13 +8,13 @@
 import UIKit
 import AVFoundation
 
-protocol JkQRScannerDelegate: AnyObject {
+public protocol JkQRScannerDelegate: AnyObject {
     func qrScanner(_ scanner: JkQRScanner, didScanQRCode code: String)
     func qrScannerDidDenyCameraUsageAuthorization()
     func qrScannerDidApproveCameraUsageAuthorization()
 }
 
-class JkQRScanner: NSObject {
+public class JkQRScanner: NSObject {
     
     weak var delegate: JkQRScannerDelegate?
     var inputView: UIView!
@@ -83,7 +83,7 @@ class JkQRScanner: NSObject {
     ///   - messageFont: UIFont for the message
     ///   - addFlashlight: set this as `true` if you want to provide the flashlight feature
     ///   - addPickFromPhotoLibraryOption: Set this value as `true` if you wan to enable the feature of scanning QR from a photo of the photo library
-    init(delegate: JkQRScannerDelegate,
+    public init(delegate: JkQRScannerDelegate,
          inputView: UIView,
          message: String? = nil, 
          messageFont: UIFont? = nil,
@@ -138,7 +138,7 @@ class JkQRScanner: NSObject {
     }
     
     /// Initiates an ``AVCaptureSession`` and prepares it for identifying a QR code
-    func prepareScanner() {
+    private func prepareScanner() {
         captureSession = AVCaptureSession()
         
         guard let videoCaptureDevice = AVCaptureDevice.default(for: .video) else { return }
@@ -173,7 +173,7 @@ class JkQRScanner: NSObject {
         previewLayer.videoGravity = .resizeAspectFill
     }
     
-    func startRunning() {
+    public func startRunning() {
         if captureSession != nil {
             DispatchQueue.global(qos: .userInitiated).async { [weak self] in
                 self?.captureSession.startRunning()
@@ -181,7 +181,7 @@ class JkQRScanner: NSObject {
         }
     }
     
-    func stopRunning() {
+    public func stopRunning() {
         if captureSession != nil {
             captureSession.stopRunning()
         }
@@ -341,7 +341,7 @@ class JkQRScanner: NSObject {
 
 // MARK: - Delegate methods -
 extension JkQRScanner: UIImagePickerControllerDelegate, UINavigationControllerDelegate, AVCaptureMetadataOutputObjectsDelegate {
-    func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
+    public func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
         for metadataObject in metadataObjects {
             guard let readableObject = metadataObject as? AVMetadataMachineReadableCodeObject else { continue }
             
@@ -358,7 +358,7 @@ extension JkQRScanner: UIImagePickerControllerDelegate, UINavigationControllerDe
         }
     }
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+    public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         picker.dismiss(animated: true, completion: nil)
         
         if let pickedImage = info[.originalImage] as? UIImage,
