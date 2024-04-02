@@ -1,0 +1,6 @@
+framework module JkQRScanner {
+  umbrella header "JkQRScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

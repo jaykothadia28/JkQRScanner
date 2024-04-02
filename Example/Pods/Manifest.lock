@@ -1,0 +1,16 @@
+PODS:
+  - JkQRScanner (0.1.0)
+
+DEPENDENCIES:
+  - JkQRScanner (from `../`)
+
+EXTERNAL SOURCES:
+  JkQRScanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JkQRScanner: 0eb63308e68d8dcc98cf62f4fdff2a60564607e2
+
+PODFILE CHECKSUM: 96ba15cec1109a9deca2b3445417089edceaa304
+
+COCOAPODS: 1.12.1
