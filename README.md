@@ -1,4 +1,7 @@
 # JkQRScanner
+<p align="left">
+  <img src="Example/JkQRScanner/Demo.gif" width="250" height = "500" alt="preview"/>
+</p>
 
 ## Example
 
